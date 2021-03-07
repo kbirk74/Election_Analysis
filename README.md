@@ -22,10 +22,10 @@ Drafted blocks of code to perform the calcs 1-5 sumarized in the overveiw, in ad
   2) created a Dictionaly and list of information using for loops to sumarize the results 
   3) Printed the results to a txt file  
   4) created a % of vote calculation  (candiate votes/totalvotes)*100
-  5) Porducest resluts athte candiate lelve and the county level. 
+  5) Porduced reslts at the candiate level and the county level. 
 
 ## Challange overview
-CSV was clean, an not data needed to be ammended. 
+CSV was clean, no challanes to report 
 
 ##Challange Summary
 Non to report
