@@ -96,9 +96,11 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write(election_results)
 
     # 6a: Write a for loop to get the county from the county dictionary.
+    #for county_name, v in county_votes.items():
+        # 6b: Retrieve the county vote count. 
+        #votes = v
     for county_name in county_votes:
-        # 6b: Retrieve the county vote count.
-        votes = county_votes[county_name]
+        votes = county_votes[county_name]    
         # 6c: Calculate the percentage of votes for the county.
         vote_percentage = float(votes)/ float(total_votes)* 100
 
@@ -108,8 +110,8 @@ with open(file_to_save, "w") as txt_file:
          # 6e: Save the county votes to a text file.
         txt_file.write(county_results)
          # 6f: Write an if statement to determine the winning county and get its vote count.
-        if (votes> winning_count) and (vote_percentage> winning_percentage):
-            county_turnout = winning_county
+        if (votes> county_turnout):
+            county_turnout = votes
             #winning_percentage = vote_percentage
             winning_county = county_name
 
